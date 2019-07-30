@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'ArvoBold_201';
+    src: url('../fonts/ArvoBold_201.eot');
+    src: url('../fonts/ArvoBold_201.eot') format('embedded-opentype'),
+    url('../fonts/ArvoBold_201.woff2') format('woff2'),
+    url('../fonts/ArvoBold_201.woff') format('woff'),
+    url('../fonts/ArvoBold_201.ttf') format('truetype'),
+    url('../fonts/ArvoBold_201.svg#ArvoBold_201') format('svg');
+}
+
+@font-face {
+    font-family: 'ArvoRegular_201';
+    src: url('../fonts/ArvoRegular_201.eot');
+    src: url('../fonts/ArvoRegular_201.eot') format('embedded-opentype'),
+    url('../fonts/ArvoRegular_201.woff2') format('woff2'),
+    url('../fonts/ArvoRegular_201.woff') format('woff'),
+    url('../fonts/ArvoRegular_201.ttf') format('truetype'),
+    url('../fonts/ArvoRegular_201.svg#ArvoRegular_201') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+    text-decoration: none;
+    font-family: 'ArvoRegular_201';
+}
+
+html {
+    height: 100%;
+}
+
+body{
+    background-color: #98161b;
+}
+
+header{
+    min-height: 40px;
+    background-color: #af2024;
+}
+
+.banner{
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 818px;
+    /*border-bottom: #98161b solid 33px;*/
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+}
+
+.container a{
+    display: inline-block;
+    margin-top: 19px;
+}
+
+.socials{
+    position: fixed;
+    right: 0;
+    top: 260px;
+    z-index: 3;
+}
+
+.socials a{
+    display: block;
+    background-color: #98161b;
+    width: 50px;
+    text-align: center;
+}
+
+.socials a:hover{
+    background-color: #850409;
+}
+
+.socials a i{
+    color: #ffffff;
+    font-size: 34px;
+    line-height: 50px;
+}
+
+.content{
+    max-width: 710px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    top: -679px;
+    margin-bottom: -715px;
+}
+
+h1{
+    background-color: #98161b;
+    color: #ffffff;
+    padding: 27px 18px;
+    font-size: 20px;
+    font-family: 'ArvoBold_201';
+}
+
+.content .text{
+    padding: 63px 74px 125px;
+    background-color: #ffffff;
+
+}
+
+.content .text .video{
+    background-color: #e7e7e7;
+    max-width: 567px;
+    height: 346px;
+    margin: 0 0 29px;
+    position: relative;
+}
+
+.content .text .video span{
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 27px solid transparent;
+    border-left: 47px solid #98161b;
+    border-bottom: 27px solid transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -27px;
+    margin-left: -23px;
+}
+
+.text h2{
+    color: #98161b;
+    font-size: 13px;
+    font-family: 'ArvoBold_201';
+}
+
+.text h2 span{
+    color: #7d7d7d;
+}
+
+h2:after{
+    position: relative;
+    content: ".........";
+
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    letter-spacing: 2px;
+    color: #98161b;
+    line-height: 0px;
+    font-size: 18px;
+}
+
+.text p{
+    font-size: 12px;
+    color: #98161b;
+    padding-top: 18px;
+}
+
+footer{
+    height: 600px;
+    background-color: #000;
+    z-index: 0;
+}
